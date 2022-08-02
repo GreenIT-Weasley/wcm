@@ -1,0 +1,27 @@
+/* field_header */
+.field_header {
+  display: flex;
+  /* justify-content: space-between; */
+  margin: 0 2% 0 2%;
+}
+.field_header ul {
+  display: flex;
+}
+.field_header ul li {
+  margin: 10px;
+}
+/* // field_header */
+
+/* field_contents */
+.field_contents > section {
+  width: 96%;
+  min-height: 800px;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid black;
+  display: none;
+}
+.field_contents > section.show {
+  display: block;
+}
+/* // field_contents */

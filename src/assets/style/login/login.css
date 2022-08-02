@@ -1,0 +1,143 @@
+.login_wrap {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.login_wrap .box {
+  margin: auto;
+  padding: 60px 0 120px;
+  width: 520px;
+}
+
+.login_wrap .login_input {
+  padding: 0 60px;
+}
+
+.login_wrap .login_input input {
+  width: 100%;
+  padding: 0px 20px;
+  height: 60px;
+  border-bottom: 1px solid rgb(229, 229, 229);
+  margin-top: 10px;
+  font-size: 18px;
+  text-align: center;
+}
+
+.login_wrap .login_input input {
+  width: 100%;
+  padding: 0px 20px;
+  height: 60px;
+  border-bottom: 1px solid rgb(229, 229, 229);
+  margin-top: 10px;
+  font-size: 18px;
+  text-align: center;
+}
+
+.login_save_box label {
+  display: inline-block;
+  font-size: 13px;
+  font-weight: 400;
+  padding-left: 10px;
+  padding-top: 10px;
+  float: left;
+}
+
+.login_wrap .help {
+  width: 296px;
+  text-align: right;
+  margin-left: 42px;
+  padding-top: 10px;
+  float: left;
+}
+
+.login_wrap .help li {
+  display: inline-block;
+  vertical-align: middle;
+  line-height: 18px;
+  font-size: 13px;
+  font-weight: 400;
+}
+
+.login_wrap .help li:hover a {
+  text-decoration: underline;
+}
+
+.login_wrap .btn_area {
+  padding: 0 60px;
+  width: 100%;
+  margin-top: 100px;
+}
+
+.login_wrap .btn_area button {
+  width: 100%;
+  background: #f36c3b;
+  color: #fff;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 70px;
+  letter-spacing: inherit;
+}
+
+.login_wrap .btn_area button:hover {
+  text-decoration: underline;
+}
+
+.login_wrap .welcome {
+  display: inline-block;
+  margin: 35px 60px;
+  font-size: 14px;
+  color: #969696;
+  text-align: center;
+}
+
+.login_wrap .welcome:hover {
+  cursor: text;
+}
+
+/* input / checkbox */
+.login_wrap .input,
+.login_wrap input[type="text"],
+.login_wrap input[type="password"],
+.login_wrap textarea {
+  background-color: #fff;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  border: 1px solid #d2d2d2;
+  font-size: inherit;
+  box-shadow: none;
+}
+
+.login_wrap input[type="checkbox"] {
+  position: absolute;
+  left: -9999px;
+  width: 1px;
+  height: 1px;
+  font-size: 0;
+  line-height: 0;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.login_wrap input[type="checkbox"] + label {
+  position: relative;
+  min-width: 18px;
+  min-height: 18px;
+  text-indent: 25px;
+}
+
+.login_save_box > input[type="checkbox"] + label div {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 18px;
+  height: 18px;
+  margin-top: -8px;
+  width: 22px;
+  height: 22px;
+  background: url(../../../../public/img/btn_chk_off01.png) no-repeat;
+}
+.login_save_box > input[type="checkbox"] + label div.checked {
+  background: url(../../../../public/img/btn_chk_on01.png) no-repeat;
+}

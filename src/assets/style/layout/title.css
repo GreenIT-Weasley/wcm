@@ -1,0 +1,40 @@
+#title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 130px;
+  /* min-height: 740px; */
+  font-family: 나눔스퀘어, "NanumSquare", sans-serif;
+}
+
+.title_inner {
+  width: 400px;
+  margin: 0 auto;
+  padding: 80px 0 0;
+  text-align: center;
+}
+
+.title_inner h2 {
+  display: inline-block;
+  font-size: 37px;
+  font-weight: 300;
+}
+.title_inner p,
+.title_inner span {
+  font-size: 22px;
+  font-weight: 300;
+}
+
+.smallline {
+  margin: 16px 0 20px 0;
+}
+
+.smallline img {
+  width: inherit;
+}
+
+.title_inner h2,
+.title_inner p,
+.title_inner span {
+  cursor: text;
+}
